@@ -33,7 +33,7 @@
   font-family: "Motion Control", sans-serif;
   font-weight: 700; /* Bold */
   font-style: normal;
-  color: #7a07f5;
+  color: #0bf;
   /* text-shadow: 0 0 10px rgba(233,213,255,0.8); */
 }
 
@@ -58,10 +58,10 @@
   width: 400px;
   box-shadow: 0px 0 2px #696BEF,
               0px 0 2px #00c5bc,
-              0px 0 2px #c200f3;
+              0px 0 2px #0bf;
 
   /* box-shadow: 0 0 10px rgba(192,132,252,0.7); */
-  border: 2px solid #a855f7;
+  /* border: 2px solid #a855f7; */
   margin-bottom: 10px;
 
 }
@@ -86,7 +86,7 @@
 .search-box:hover{
   box-shadow: -8px 0 20px #696BEF,
               0px 0 20px #00c5bc,
-              8px 0 20px #c200f3;
+              8px 0 20px #0bf;
   transition: 1s ease;
 }
 

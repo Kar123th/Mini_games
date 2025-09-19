@@ -3,10 +3,10 @@
   justify-content: space-between;
   align-items: center;
   /* padding: 5px 15px; */
-  background: linear-gradient(to bottom, #0B0B0B , #4F00A3);
+  background: linear-gradient(to bottom , #0bf);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
   width: 100%;
-  height: 109px;
+  height: 70px;
 }
 
 .logo {
@@ -103,7 +103,7 @@
 
 .login-btn {
   background: white;
-  color: #6a0dad;
+  color: #0bf;
   padding: 4px 12px;
   border-radius: 25px;
   cursor: pointer;
@@ -113,22 +113,24 @@
 
 .icon{
   position: relative;
-  top: 3px;
+  top: 2px;
+  left: 6px;
 }
 .login-btn button{
   border: none;
-  color: #6a0dad;
+  color: #0bf;
   background-color: white;
   font-weight: bold;
   padding: 5px 6px;
-  align-items: center;
+  position: relative;
+  left: 7px;
   cursor: pointer;
 
 
 }
 @media (max-width: 1400px) {
   .navbar {
-    height: 80px;
+    height: 70px;
   }
   .logo {
     font-size: 20px;
