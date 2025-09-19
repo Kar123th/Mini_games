@@ -7,7 +7,7 @@
   cursor: pointer;
   width: 301px !important;
   height: 320px !important;
-  gap: 10px;
+  gap: 10px;;
 }
 
 .game-card a {
@@ -36,4 +36,15 @@
   transform: scale(1);
   box-shadow: 0 6px 20px rgba(192,132,252,0.6);
   transition: transform 0.1s ease;
+}
+
+@media (max-width:1400px) {
+  .game-card {
+    width: 250px !important;
+    height: 270px !important;
+  }
+  .game-img {
+    width: 250px !important;
+    height: 270px !important;
+  }
 }

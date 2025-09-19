@@ -5,27 +5,49 @@
   background-color: #000000;
   
 }
-
-.hero-title {
-  font-size: 36px;
-  font-family: Motion control;
+/* @font-face {
+  font-family: "Motion Control";
+  src: url("/fonts/MotionConrol-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: bold;
+}
+
+.hero-title {
+  font-size: 80px;
+  font-family: MotionControl;
+  font-weight: 700;
+  font-style: bold;
+  color: #7a07f5;
+  /* text-shadow: 0 0 10px rgba(233,213,255,0.8); 
+} */
+
+@font-face {
+  font-family: "Motion Control";
+  src: url("../../../public/fonts/MotionControl-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hero-title {
+  font-size: 80px;
+  font-family: "Motion Control", sans-serif;
+  font-weight: 700; /* Bold */
+  font-style: normal;
   color: #7a07f5;
   /* text-shadow: 0 0 10px rgba(233,213,255,0.8); */
 }
 
 .hero-subtitle {
-  top: -25px;
+  top: -65px;
   color: #d1d5db;
-  font-size: 15px;
-  width: 300px;
+  font-size: 20px;
+  width: 400px;
   position: relative;
   left: 40%;
 }
 
 .search-box {
-  margin-top: 25px;
+  margin-top: -20px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -34,12 +56,13 @@
   padding: 10px 14px;
   border-radius: 25px;
   width: 400px;
-  box-shadow: -8px 0 25px #696BEF,
-              0px 0 25px #00c5bc,
-              8px 0 25px #c200f3;
+  box-shadow: 0px 0 2px #696BEF,
+              0px 0 2px #00c5bc,
+              0px 0 2px #c200f3;
 
   /* box-shadow: 0 0 10px rgba(192,132,252,0.7); */
   border: 2px solid #a855f7;
+  margin-bottom: 10px;
 
 }
 
@@ -61,8 +84,23 @@
 }
 
 .search-box:hover{
-  box-shadow: -8px 0 30px #696BEF,
-              0px 0 30px #00c5bc,
-              8px 0 30px #c200f3;
-  transition-duration: 0.3s ease;
+  box-shadow: -8px 0 20px #696BEF,
+              0px 0 20px #00c5bc,
+              8px 0 20px #c200f3;
+  transition: 1s ease;
+}
+
+@media  (max-width:1400px) {
+  .hero-title {
+    font-size: 60px;
+  }
+  .hero-subtitle {
+    font-size: 20px;
+    top: -45px;
+    width: 400px;
+    left: 35%;
+  }
+  .search-box {
+    width: 300px;
+  }
 }
