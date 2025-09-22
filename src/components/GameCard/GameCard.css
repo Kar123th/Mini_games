@@ -7,7 +7,7 @@
   cursor: pointer;
   width: 301px !important;
   height: 320px !important;
-  gap: 10px;;
+  gap: 10px;
 }
 
 .game-card a {
@@ -22,6 +22,31 @@
   border-radius: 16px;
   transition: transform 0.1s ease,
   box-shadow 0.1s ease;
+}
+
+.game-card.disabled .game-card-content {
+  position: relative;
+}
+
+.game-card.disabled .game-card-content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+}
+
+.lock-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+  height: 48px;
+  z-index: 1;
 }
 
 .game-title {

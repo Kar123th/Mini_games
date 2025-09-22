@@ -3,8 +3,9 @@
   padding: 50px 20px;
   /* background: linear-gradient(to bottom, #000000 * 2.5, #002530); */
   background-color: #000000;
-  
+
 }
+
 /* @font-face {
   font-family: "Motion Control";
   src: url("/fonts/MotionConrol-Bold.otf") format("opentype");
@@ -23,7 +24,7 @@
 
 @font-face {
   font-family: "Motion Control";
-  src: url("../../../public/fonts/MotionControl-Bold.otf") format("opentype");
+  src: url("/fonts/MotionControl-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
 }
@@ -103,4 +104,5 @@
   .search-box {
     width: 300px;
   }
+
 }

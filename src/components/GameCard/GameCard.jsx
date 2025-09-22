@@ -15,6 +15,7 @@ export default function GameCard({ game, index }) {
         // Disabled → no link
         <div className="game-card-content">
           <img src={game.img} alt={game.title} className="game-img" />
+          <img src="/games/uim_lock.png" alt="Locked" className="lock-icon" />
         </div>
       ) : (
         // Enabled → clickable link
