@@ -4,7 +4,7 @@ import "./GamesGrid.css";
 const games = [
   { title: "UNO", img: "/games/uno.svg", link: "https://unogamesai.netlify.app/", isDisabled: false },
   { title: "XO", img: "/games/XO.svg", link: "https://incomparable-phoenix-5d1991.netlify.app/", isDisabled: false },
-  { title: "Bingo", img: "/games/bingo.svg", link: "", isDisabled: true },
+  { title: "Bingo", img: "/games/bingo.svg", link: "https://musical-khapse-d41f64.netlify.app/", isDisabled: false },
   { title: "Space Race", img: "/games/spacerace.svg", link: "https://example.com/space", isDisabled: true },
   { title: "Cricket", img: "/games/cricket.svg", link: "https://example.com/cricket", isDisabled: true },
   { title: "Football", img: "/games/football.svg", link: "https://example.com/football", isDisabled: true },
